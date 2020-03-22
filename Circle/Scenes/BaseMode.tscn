@@ -1,0 +1,48 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Images/Circle1-White-01.png" type="Texture" id=1]
+[ext_resource path="res://Images/Circle2-White-01.png" type="Texture" id=2]
+[ext_resource path="res://Images/Circle3-White-01.png" type="Texture" id=3]
+[ext_resource path="res://Images/Circle4-White-01.png" type="Texture" id=4]
+[ext_resource path="res://Scenes/LightedSphere.tscn" type="PackedScene" id=5]
+
+[node name="Mode1" type="Node2D"]
+z_index = 1
+
+[node name="Circles" type="Node" parent="."]
+
+[node name="Circle1" type="Sprite" parent="Circles"]
+self_modulate = Color( 0, 1, 0.8, 1 )
+position = Vector2( 300, 363 )
+scale = Vector2( 0.45, 0.45 )
+texture = ExtResource( 1 )
+offset = Vector2( 2.345, -2.345 )
+
+[node name="Circle2" type="Sprite" parent="Circles"]
+self_modulate = Color( 0, 1, 0.8, 1 )
+position = Vector2( 300, 363 )
+scale = Vector2( 0.45, 0.45 )
+texture = ExtResource( 2 )
+offset = Vector2( 2.345, -2.345 )
+
+[node name="Circle3" type="Sprite" parent="Circles"]
+self_modulate = Color( 0, 1, 0.8, 1 )
+position = Vector2( 300, 363 )
+scale = Vector2( 0.45, 0.45 )
+texture = ExtResource( 3 )
+offset = Vector2( 2.345, -2.345 )
+
+[node name="Circle4" type="Sprite" parent="Circles"]
+self_modulate = Color( 0, 1, 0.8, 1 )
+position = Vector2( 300, 363 )
+scale = Vector2( 0.45, 0.45 )
+texture = ExtResource( 4 )
+offset = Vector2( 2.345, -2.345 )
+
+[node name="LightedSphere" parent="." instance=ExtResource( 5 )]
+position = Vector2( 300, 363 )
+
+[node name="PremierLight2D" parent="LightedSphere" index="2"]
+position = Vector2( -365.242, 36.0098 )
+
+[editable path="LightedSphere"]

@@ -1,0 +1,13 @@
+[remap]
+
+importer="image"
+type="Image"
+path="res://.import/Tick.png-87c2b844503b6bc36f95390e94b3f43e.image"
+
+[deps]
+
+source_file="res://Images/Tick.png"
+dest_files=[ "res://.import/Tick.png-87c2b844503b6bc36f95390e94b3f43e.image" ]
+
+[params]
+

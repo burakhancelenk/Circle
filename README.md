@@ -4,11 +4,11 @@
 
 ## Screenshots  
   
-![](/Images/Screenshot1.png)  
+![](/Images/ScreenShot1.png)  
   
 ![](/Images/Screenshot_1569804798.png)  
   
-![](/Images/Screenshot2-01.png)  
+![](/Images/ScreenShot2-01.png)  
   
 ![](/Images/Screenshot_1569804967.png)  
   

@@ -2,7 +2,7 @@
 ## Technical Details  
   
 * Made with **Godot Engine and GDScript**.  
-* Code path; **Circle/Scripts**.  
+* Code files directory; **Circle/Scripts**.  
 * Some code lines are long enough to reduce the code readability. This is because of the GDScript syntax. Breaking long lines gives a syntax error.  
 * More details about the engine;  
 https://godotengine.org/  
